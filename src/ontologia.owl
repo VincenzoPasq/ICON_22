@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/0/untitled-Ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2022/0/untitled-Ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2022/0/untitled-Ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Inglese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguaggi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MySql"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#istanza_Inglese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#istanza_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#istanza_MySql"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#istanza_Python"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Inglese"/>
+        <Class IRI="#Linguaggi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java"/>
+        <Class IRI="#Linguaggi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MySql"/>
+        <Class IRI="#Linguaggi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python"/>
+        <Class IRI="#Linguaggi"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Inglese"/>
+        <NamedIndividual IRI="#istanza_Inglese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java"/>
+        <NamedIndividual IRI="#istanza_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MySql"/>
+        <NamedIndividual IRI="#istanza_MySql"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python"/>
+        <NamedIndividual IRI="#istanza_Python"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <NamedIndividual IRI="#istanza_Inglese"/>
+        <Literal>La conoscenza dell&apos;inglese riguarda un livello B2 in grado di:
+- comprendere le idee principali di testi complessi su argomenti sia concreti che astratti;
+- comprendere le discussioni tecniche sul proprio campo di specializzazione;
+- interagire con una certa scioltezza e spontaneità rendendo possibile
+  un&apos;interazione naturale con i madrelingua senza sforzo da entrambe le parti;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <NamedIndividual IRI="#istanza_Java"/>
+        <Literal>La conoscenza del linguaggio Java prevede:
+- conoscere i principali pacchetti della libreria standard Java;
+- apprendere ed utilizzare le collezioni Java (java.util);
+- conoscere ed utilizzare il meccanismo di eccezioni Java;
+- conoscere ed utilizzare il multi-threading in Java;
+- apprendere la progettazione delle interfacce grafiche con componenti Swing (javax.swing);
+- apprendere l&apos;approccio Java per comunicazioni in rete e realizzare comunicazioni tra applicazioni in rete (java.net);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <NamedIndividual IRI="#istanza_MySql"/>
+        <Literal>La conoscenza del linguaggio MySql prevede:
+- conoscere l’algebra su cui si basa la teoria dei database;
+- imparare a progettare e a costruire un database;
+- utilizzare al meglio l’sql;
+- conoscere l’organizzazione fisica dei dati, ottimizzare gli indici, ottimizzare le interrogazioni;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <NamedIndividual IRI="#istanza_Python"/>
+        <Literal>La conoscenza del linguaggio Python prevede:
+- conoscenza della programmazione ad oggetti;
+- sviluppo di applicazioni desktop;
+- sviluppo di servizi web;
+- machine learning e data science;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <Class IRI="#Linguaggi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Descrizione_linguaggio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
